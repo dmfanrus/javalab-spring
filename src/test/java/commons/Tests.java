@@ -17,10 +17,11 @@ public class Tests {
                 "John",
                 "Smith",
                 new SimpleCountry(1, "Russia", "RU"),
+                true,
+                1.8f,
                 35,
-
                 Arrays.asList(
-                        new SimpleContact("TELEPHONE", "222-33-22"),
-                        new SimpleContact("EMAIL","jkhafg@kjhsd.ru")));
+                        new SimpleContact("TELEPHONE", "911-103-33-95"),
+                        new SimpleContact("EMAIL","skraaa@skibibi.papa")));
     }
 }

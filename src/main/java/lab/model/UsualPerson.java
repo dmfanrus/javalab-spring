@@ -10,6 +10,8 @@ public class UsualPerson implements Person {
     private String firstName;
     private String lastName;
     private Country country;
+    private boolean programmer;
+    private float height;
     private int age;
     private List<Contact> contacts;
 }

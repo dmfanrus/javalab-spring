@@ -12,6 +12,8 @@
           c:lastName="Smith"
           c:country-ref="country"
           c:age="35"
+          c:height="1.8f"
+          c:programmer="true"
           c:contacts-ref="contacts"/>
 
     <bean id="country" class="lab.model.SimpleCountry"
@@ -21,9 +23,9 @@
 
     <util:list id="contacts" value-type="lab.model.Contact">
         <bean class="lab.model.SimpleContact"
-              c:type="TELEPHONE" c:value="222-33-22"/>
+              c:type="TELEPHONE" c:value="911-103-33-95"/>
         <bean class="lab.model.SimpleContact"
-            c:type="EMAIL" c:value="jkhafg@kjhsd.ru"/>
+            c:type="EMAIL" c:value="skraaa@skibibi.papa"/>
     </util:list>
 
 </beans>
