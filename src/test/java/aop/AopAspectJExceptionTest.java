@@ -4,6 +4,7 @@ import lab.model.Bar;
 import lab.model.CustomerBrokenException;
 import lab.model.Person;
 import lombok.AllArgsConstructor;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -27,7 +28,13 @@ class AopAspectJExceptionTest {
     @BeforeEach
     void setUp() throws Exception {
 
-//        person.setBroke(true);
+        person.setBroke(true);
+    }
+
+    @AfterEach
+    void setDown() throws Exception {
+
+        person.setBroke(false);
     }
 
     @Test

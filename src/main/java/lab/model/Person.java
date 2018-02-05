@@ -21,4 +21,6 @@ public interface Person {
     default String gatHello(Person person) {
         return format("Hello, %s! I`m %s", person.getName(), getName());
     }
+
+    void setBroke(boolean b);
 }
